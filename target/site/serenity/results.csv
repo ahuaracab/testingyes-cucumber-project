@@ -1,2 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Registro de usuario en TestingYes","Registro de usuario con solo los campos obligatorios","FAILURE","2020-07-18T00:16:14.117-05:00[America/Lima]","0.0","35.36"
+"Registro de usuario en TestingYes","Registro de usuario con solo los campos obligatorios","SUCCESS","2020-07-18T11:04:00.341-05:00[America/Lima]","0.0","54.26"

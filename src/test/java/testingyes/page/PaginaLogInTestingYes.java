@@ -2,7 +2,6 @@ package testingyes.page;
 
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.support.FindBy;
 
 public class PaginaLogInTestingYes extends PageObject {
@@ -16,7 +15,7 @@ public class PaginaLogInTestingYes extends PageObject {
     @FindBy(id = "country")
     WebElementFacade selectorDePais;
 
-    @FindBy(id = "street_address")
+    @FindBy(id = "street-address")
     WebElementFacade cajaDeDireccion;
 
     @FindBy(id = "city")
@@ -44,7 +43,6 @@ public class PaginaLogInTestingYes extends PageObject {
     WebElementFacade botonSubmitTheInformation;
 
     public void ingresarNombre(String nombre) {
-        cajaDeNombre.click();
         cajaDeNombre.type(nombre);
     }
 
@@ -58,7 +56,9 @@ public class PaginaLogInTestingYes extends PageObject {
 
     public void ingresarDireccion(String direccion) {
 
-
+       /* Actions actions = new Actions(getDriver());
+        actions.moveToElement(cajaDeDireccion);
+        actions.perform();*/
         cajaDeDireccion.type(direccion);
 
     }
@@ -88,10 +88,10 @@ public class PaginaLogInTestingYes extends PageObject {
     }
 
     public void ingresarConfirmacionDeContrasena(String confirmacionDeContrasena) {
-        cajaDeContrasena.type(confirmacionDeContrasena);
+        cajaDeConfirmacionDeContrasena.type(confirmacionDeContrasena);
     }
 
-    public void enviarInformacion(){
+    public void enviarInformacion() {
         botonSubmitTheInformation.click();
     }
 

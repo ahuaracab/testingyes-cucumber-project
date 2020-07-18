@@ -7,6 +7,7 @@ import testingyes.page.PaginaDashboardTestingYes;
 import testingyes.page.PaginaLogInTestingYes;
 import testingyes.page.PaginaPrincipalTestingYes;
 
+import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class UsuarioParaRegistro extends ScenarioActor {
@@ -41,7 +42,7 @@ public class UsuarioParaRegistro extends ScenarioActor {
     @Step("#actor deberia ver la confirmacion de registro: {0}")
     public void deberiaVerLaConfirmacionDeRegistro(String mensajeDeRegistroSatisfactorioEsperado) {
         String texto = paginaDashboard.obtenerMensajeDeRegistroSatisfactorio();
-        assertThat(texto, equals(mensajeDeRegistroSatisfactorioEsperado));
+        assertThat(texto, containsString(mensajeDeRegistroSatisfactorioEsperado));
     }
 
 }

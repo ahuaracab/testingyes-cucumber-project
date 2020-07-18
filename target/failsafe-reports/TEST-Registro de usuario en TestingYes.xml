@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="Registro de usuario en TestingYes" time="35.079" tests="2" errors="2" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="Registro de usuario en TestingYes" time="54.408" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/ahuaracab/Desktop/projects/testingyes-cucumber-project/target/surefire/surefirebooter1273634578647774190.jar /home/ahuaracab/Desktop/projects/testingyes-cucumber-project/target/surefire 2020-07-18T00-16-11_492-jvmRun1 surefire6638695122387354859tmp surefire_0777591466122651679tmp"/>
+    <property name="sun.java.command" value="/home/ahuaracab/Desktop/projects/testingyes-cucumber-project/target/surefire/surefirebooter5008649421442855366.jar /home/ahuaracab/Desktop/projects/testingyes-cucumber-project/target/surefire 2020-07-18T11-03-58_138-jvmRun1 surefire6651798411024194553tmp surefire_07310012993941437243tmp"/>
     <property name="surefire.test.class.path" value="/home/ahuaracab/Desktop/projects/testingyes-cucumber-project/target/test-classes:/home/ahuaracab/Desktop/projects/testingyes-cucumber-project/target/testingyes-cucumber-project-1.0-SNAPSHOT.jar:/home/ahuaracab/.m2/repository/net/serenity-bdd/serenity-core/2.2.9/serenity-core-2.2.9.jar:/home/ahuaracab/.m2/repository/net/bytebuddy/byte-buddy/1.10.1/byte-buddy-1.10.1.jar:/home/ahuaracab/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.1/byte-buddy-agent-1.10.1.jar:/home/ahuaracab/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/ahuaracab/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/ahuaracab/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/ahuaracab/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/ahuaracab/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/ahuaracab/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/ahuaracab/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2.jar:/home/ahuaracab/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/ahuaracab/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/home/ahuaracab/.m2/repository/org/ow2/asm/asm/7.2/asm-7.2.jar:/home/ahuaracab/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/ahuaracab/.m2/repository/org/objenesis/objenesis/3.0.1/objenesis-3.0.1.jar:/home/ahuaracab/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:/home/ahuaracab/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/home/ahuaracab/.m2/repository/io/cucumber/cucumber-core/5.5.0/cucumber-core-5.5.0.jar:/home/ahuaracab/.m2/repository/io/cucumber/cucumber-gherkin/5.5.0/cucumber-gherkin-5.5.0.jar:/home/ahuaracab/.m2/repository/io/cucumber/cucumber-gherkin-vintage/5.5.0/cucumber-gherkin-vintage-5.5.0.jar:/home/ahuaracab/.m2/repository/io/cucumber/tag-expressions/2.0.4/tag-expressions-2.0.4.jar:/home/ahuaracab/.m2/repository/io/cucumber/cucumber-expressions/8.3.1/cucumber-expressions-8.3.1.jar:/home/ahuaracab/.m2/repository/io/cucumber/datatable/3.3.0/datatable-3.3.0.jar:/home/ahuaracab/.m2/repository/io/cucumber/cucumber-plugin/5.5.0/cucumber-plugin-5.5.0.jar:/home/ahuaracab/.m2/repository/io/cucumber/docstring/5.5.0/docstring-5.5.0.jar:/home/ahuaracab/.m2/repository/io/cucumber/cucumber-java/5.5.0/cucumber-java-5.5.0.jar:/home/ahuaracab/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/ahuaracab/.m2/repository/io/vavr/vavr/0.9.0/vavr-0.9.0.jar:/home/ahuaracab/.m2/repository/io/vavr/vavr-match/0.9.0/vavr-match-0.9.0.jar:/home/ahuaracab/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:/home/ahuaracab/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.jar:/home/ahuaracab/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.0.1/jaxb-impl-2.3.0.1.jar:/home/ahuaracab/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/home/ahuaracab/.m2/repository/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0.jar:/home/ahuaracab/.m2/repository/net/serenity-bdd/serenity-report-resources/2.2.9/serenity-report-resources-2.2.9.jar:/home/ahuaracab/.m2/repository/net/serenity-bdd/serenity-model/2.2.9/serenity-model-2.2.9.jar:/home/ahuaracab/.m2/repository/commons-net/commons-net/3.6/commons-net-3.6.jar:/home/ahuaracab/.m2/repository/org/apache/commons/commons-text/1.6/commons-text-1.6.jar:/home/ahuaracab/.m2/repository/org/reflections/reflections/0.9.11/reflections-0.9.11.jar:/home/ahuaracab/.m2/repository/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar:/home/ahuaracab/.m2/repository/es/nitaur/markdown/txtmark/0.16/txtmark-0.16.jar:/home/ahuaracab/.m2/repository/net/serenity-bdd/serenity-reports/2.2.9/serenity-reports-2.2.9.jar:/home/ahuaracab/.m2/repository/net/serenity-bdd/serenity-stats/2.2.9/serenity-stats-2.2.9.jar:/home/ahuaracab/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/ahuaracab/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/ahuaracab/.m2/repository/org/seleniumhq/selenium/selenium-server/3.141.59/selenium-server-3.141.59.jar:/home/ahuaracab/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/ahuaracab/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/ahuaracab/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/ahuaracab/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/ahuaracab/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/home/ahuaracab/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.12.v20180830/jetty-repacked-9.4.12.v20180830.jar:/home/ahuaracab/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/ahuaracab/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/ahuaracab/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/ahuaracab/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/home/ahuaracab/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/ahuaracab/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/ahuaracab/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/ahuaracab/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/ahuaracab/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/ahuaracab/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/ahuaracab/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/ahuaracab/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/ahuaracab/.m2/repository/com/paulhammant/ngwebdriver/1.1.5/ngwebdriver-1.1.5.jar:/home/ahuaracab/.m2/repository/com/assertthat/selenium-shutterbug/0.9.3/selenium-shutterbug-0.9.3.jar:/home/ahuaracab/.m2/repository/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar:/home/ahuaracab/.m2/repository/com/github/zafarkhaja/java-semver/0.9.0/java-semver-0.9.0.jar:/home/ahuaracab/.m2/repository/com/codeborne/phantomjsdriver/1.4.4/phantomjsdriver-1.4.4.jar:/home/ahuaracab/.m2/repository/org/seleniumhq/selenium/htmlunit-driver/2.37.0/htmlunit-driver-2.37.0.jar:/home/ahuaracab/.m2/repository/io/appium/java-client/7.3.0/java-client-7.3.0.jar:/home/ahuaracab/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/home/ahuaracab/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/home/ahuaracab/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/home/ahuaracab/.m2/repository/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar:/home/ahuaracab/.m2/repository/org/springframework/spring-context-support/5.1.2.RELEASE/spring-context-support-5.1.2.RELEASE.jar:/home/ahuaracab/.m2/repository/org/springframework/spring-beans/5.1.2.RELEASE/spring-beans-5.1.2.RELEASE.jar:/home/ahuaracab/.m2/repository/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE.jar:/home/ahuaracab/.m2/repository/org/springframework/spring-aop/5.1.2.RELEASE/spring-aop-5.1.2.RELEASE.jar:/home/ahuaracab/.m2/repository/org/springframework/spring-expression/5.1.2.RELEASE/spring-expression-5.1.2.RELEASE.jar:/home/ahuaracab/.m2/repository/org/springframework/spring-core/5.1.2.RELEASE/spring-core-5.1.2.RELEASE.jar:/home/ahuaracab/.m2/repository/org/springframework/spring-jcl/5.1.2.RELEASE/spring-jcl-5.1.2.RELEASE.jar:/home/ahuaracab/.m2/repository/org/codehaus/groovy/groovy/2.5.5/groovy-2.5.5.jar:/home/ahuaracab/.m2/repository/net/sf/opencsv/opencsv/2.0/opencsv-2.0.jar:/home/ahuaracab/.m2/repository/commons-beanutils/commons-beanutils-core/1.8.3/commons-beanutils-core-1.8.3.jar:/home/ahuaracab/.m2/repository/joda-time/joda-time/2.7/joda-time-2.7.jar:/home/ahuaracab/.m2/repository/com/thoughtworks/xstream/xstream/1.4.9/xstream-1.4.9.jar:/home/ahuaracab/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar:/home/ahuaracab/.m2/repository/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar:/home/ahuaracab/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/home/ahuaracab/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/home/ahuaracab/.m2/repository/org/freemarker/freemarker/2.3.29/freemarker-2.3.29.jar:/home/ahuaracab/.m2/repository/net/sourceforge/jexcelapi/jxl/2.6.12/jxl-2.6.12.jar:/home/ahuaracab/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/ahuaracab/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/home/ahuaracab/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.37.0/htmlunit-2.37.0.jar:/home/ahuaracab/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.37.0/htmlunit-core-js-2.37.0.jar:/home/ahuaracab/.m2/repository/net/sourceforge/htmlunit/neko-htmlunit/2.37.0/neko-htmlunit-2.37.0.jar:/home/ahuaracab/.m2/repository/xerces/xercesImpl/2.12.0/xercesImpl-2.12.0.jar:/home/ahuaracab/.m2/repository/net/sourceforge/htmlunit/htmlunit-cssparser/1.5.0/htmlunit-cssparser-1.5.0.jar:/home/ahuaracab/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/home/ahuaracab/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.26.v20200117/websocket-client-9.4.26.v20200117.jar:/home/ahuaracab/.m2/repository/org/eclipse/jetty/jetty-client/9.4.26.v20200117/jetty-client-9.4.26.v20200117.jar:/home/ahuaracab/.m2/repository/org/eclipse/jetty/jetty-http/9.4.26.v20200117/jetty-http-9.4.26.v20200117.jar:/home/ahuaracab/.m2/repository/org/eclipse/jetty/jetty-xml/9.4.26.v20200117/jetty-xml-9.4.26.v20200117.jar:/home/ahuaracab/.m2/repository/org/eclipse/jetty/jetty-util/9.4.26.v20200117/jetty-util-9.4.26.v20200117.jar:/home/ahuaracab/.m2/repository/org/eclipse/jetty/jetty-io/9.4.26.v20200117/jetty-io-9.4.26.v20200117.jar:/home/ahuaracab/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.26.v20200117/websocket-common-9.4.26.v20200117.jar:/home/ahuaracab/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.26.v20200117/websocket-api-9.4.26.v20200117.jar:/home/ahuaracab/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/home/ahuaracab/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/home/ahuaracab/.m2/repository/org/apache/httpcomponents/httpmime/4.5.5/httpmime-4.5.5.jar:/home/ahuaracab/.m2/repository/org/fluentlenium/fluentlenium-core/0.10.2/fluentlenium-core-0.10.2.jar:/home/ahuaracab/.m2/repository/com/jhlabs/filters/2.0.235/filters-2.0.235.jar:/home/ahuaracab/.m2/repository/org/asciidoctor/asciidoctorj/1.5.6/asciidoctorj-1.5.6.jar:/home/ahuaracab/.m2/repository/org/jruby/jruby-complete/1.7.26/jruby-complete-1.7.26.jar:/home/ahuaracab/.m2/repository/org/imgscalr/imgscalr-lib/4.2/imgscalr-lib-4.2.jar:/home/ahuaracab/.m2/repository/javax/el/javax.el-api/2.2.4/javax.el-api-2.2.4.jar:/home/ahuaracab/.m2/repository/org/glassfish/web/javax.el/2.2.4/javax.el-2.2.4.jar:/home/ahuaracab/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/home/ahuaracab/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/home/ahuaracab/.m2/repository/org/awaitility/awaitility/4.0.1/awaitility-4.0.1.jar:/home/ahuaracab/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/home/ahuaracab/.m2/repository/com/typesafe/config/1.3.1/config-1.3.1.jar:/home/ahuaracab/.m2/repository/org/jsoup/jsoup/1.10.3/jsoup-1.10.3.jar:/home/ahuaracab/.m2/repository/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-all/0.34.30/flexmark-all-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark/0.34.30/flexmark-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-ext-abbreviation/0.34.30/flexmark-ext-abbreviation-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-ext-admonition/0.34.30/flexmark-ext-admonition-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-ext-anchorlink/0.34.30/flexmark-ext-anchorlink-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-ext-aside/0.34.30/flexmark-ext-aside-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-ext-attributes/0.34.30/flexmark-ext-attributes-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-ext-autolink/0.34.30/flexmark-ext-autolink-0.34.30.jar:/home/ahuaracab/.m2/repository/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-ext-definition/0.34.30/flexmark-ext-definition-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-ext-emoji/0.34.30/flexmark-ext-emoji-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-ext-enumerated-reference/0.34.30/flexmark-ext-enumerated-reference-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-ext-escaped-character/0.34.30/flexmark-ext-escaped-character-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-ext-footnotes/0.34.30/flexmark-ext-footnotes-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-issues/0.34.30/flexmark-ext-gfm-issues-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.34.30/flexmark-ext-gfm-strikethrough-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.34.30/flexmark-ext-gfm-tables-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.34.30/flexmark-ext-gfm-tasklist-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-users/0.34.30/flexmark-ext-gfm-users-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-ext-gitlab/0.34.30/flexmark-ext-gitlab-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-front-matter/0.34.30/flexmark-ext-jekyll-front-matter-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-tag/0.34.30/flexmark-ext-jekyll-tag-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-ext-media-tags/0.34.30/flexmark-ext-media-tags-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-test-util/0.34.30/flexmark-test-util-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-ext-ins/0.34.30/flexmark-ext-ins-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-ext-xwiki-macros/0.34.30/flexmark-ext-xwiki-macros-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-ext-superscript/0.34.30/flexmark-ext-superscript-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-ext-tables/0.34.30/flexmark-ext-tables-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-ext-toc/0.34.30/flexmark-ext-toc-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-ext-typographic/0.34.30/flexmark-ext-typographic-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-ext-wikilink/0.34.30/flexmark-ext-wikilink-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.34.30/flexmark-ext-yaml-front-matter-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-ext-youtube-embedded/0.34.30/flexmark-ext-youtube-embedded-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-formatter/0.34.30/flexmark-formatter-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-html-parser/0.34.30/flexmark-html-parser-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-jira-converter/0.34.30/flexmark-jira-converter-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-pdf-converter/0.34.30/flexmark-pdf-converter-0.34.30.jar:/home/ahuaracab/.m2/repository/com/openhtmltopdf/openhtmltopdf-core/0.0.1-RC13/openhtmltopdf-core-0.0.1-RC13.jar:/home/ahuaracab/.m2/repository/com/openhtmltopdf/openhtmltopdf-pdfbox/0.0.1-RC13/openhtmltopdf-pdfbox-0.0.1-RC13.jar:/home/ahuaracab/.m2/repository/org/apache/pdfbox/pdfbox/2.0.8/pdfbox-2.0.8.jar:/home/ahuaracab/.m2/repository/org/apache/pdfbox/fontbox/2.0.8/fontbox-2.0.8.jar:/home/ahuaracab/.m2/repository/org/apache/pdfbox/xmpbox/2.0.8/xmpbox-2.0.8.jar:/home/ahuaracab/.m2/repository/de/rototor/pdfbox/graphics2d/0.12/graphics2d-0.12.jar:/home/ahuaracab/.m2/repository/com/openhtmltopdf/openhtmltopdf-rtl-support/0.0.1-RC13/openhtmltopdf-rtl-support-0.0.1-RC13.jar:/home/ahuaracab/.m2/repository/com/ibm/icu/icu4j/59.1/icu4j-59.1.jar:/home/ahuaracab/.m2/repository/com/openhtmltopdf/openhtmltopdf-jsoup-dom-converter/0.0.1-RC13/openhtmltopdf-jsoup-dom-converter-0.0.1-RC13.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-profile-pegdown/0.34.30/flexmark-profile-pegdown-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-util/0.34.30/flexmark-util-0.34.30.jar:/home/ahuaracab/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.34.30/flexmark-youtrack-converter-0.34.30.jar:/home/ahuaracab/.m2/repository/net/serenity-bdd/serenity-junit/2.2.9/serenity-junit-2.2.9.jar:/home/ahuaracab/.m2/repository/net/serenity-bdd/serenity-screenplay/2.2.9/serenity-screenplay-2.2.9.jar:/home/ahuaracab/.m2/repository/net/serenity-bdd/serenity-screenplay-webdriver/2.2.9/serenity-screenplay-webdriver-2.2.9.jar:/home/ahuaracab/.m2/repository/net/serenity-bdd/serenity-ensure/2.2.9/serenity-ensure-2.2.9.jar:/home/ahuaracab/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.3.31/kotlin-stdlib-1.3.31.jar:/home/ahuaracab/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.31/kotlin-stdlib-common-1.3.31.jar:/home/ahuaracab/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/home/ahuaracab/.m2/repository/net/serenity-bdd/serenity-cucumber5/2.2.5/serenity-cucumber5-2.2.5.jar:/home/ahuaracab/.m2/repository/io/cucumber/cucumber-junit/5.6.0/cucumber-junit-5.6.0.jar:/home/ahuaracab/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/ahuaracab/.m2/repository/io/cucumber/datatable-matchers/3.3.0/datatable-matchers-3.3.0.jar:/home/ahuaracab/.m2/repository/org/apache/commons/commons-csv/1.5/commons-csv-1.5.jar:/home/ahuaracab/.m2/repository/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.jar:/home/ahuaracab/.m2/repository/ch/qos/logback/logback-core/1.0.13/logback-core-1.0.13.jar:/home/ahuaracab/.m2/repository/junit/junit/4.13/junit-4.13.jar:/home/ahuaracab/.m2/repository/org/assertj/assertj-core/3.6.2/assertj-core-3.6.2.jar:/home/ahuaracab/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/ahuaracab"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="idea.version2020.1.2" value="true"/>
-    <property name="surefire.real.class.path" value="/home/ahuaracab/Desktop/projects/testingyes-cucumber-project/target/surefire/surefirebooter1273634578647774190.jar"/>
+    <property name="surefire.real.class.path" value="/home/ahuaracab/Desktop/projects/testingyes-cucumber-project/target/surefire/surefirebooter5008649421442855366.jar"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
     <property name="java.protocol.handler.pkgs" value="com.google.common"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -65,58 +65,49 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="Registro de usuario con solo los campos obligatorios" classname="Registro de usuario en TestingYes" time="17.724">
-    <error message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException"><![CDATA[net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for PaginaLogInTestingYes.cajaDeDireccion to be enabled (tried for 5 second(s) with 100 milliseconds interval)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'angelohb', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-109-generic', java.version: '1.8.0_252'
-Driver info: driver.version: unknown
-]]></error>
-    <system-out><![CDATA[00:16:13.271 [main] WARN  i.c.junit.CucumberSerenityRunner - By default Cucumber is running in --non-strict mode.
+  <testcase name="Registro de usuario con solo los campos obligatorios" classname="Registro de usuario en TestingYes" time="14.796">
+    <system-out><![CDATA[11:03:59.439 [main] WARN  i.c.junit.CucumberSerenityRunner - By default Cucumber is running in --non-strict mode.
 This default will change to --strict and --non-strict will be removed.
 You can use --strict or @CucumberOptions(strict = true) to suppress this warning
 
-00:16:13.551 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM /home/ahuaracab/Desktop/projects/testingyes-cucumber-project/serenity.properties 
+11:03:59.724 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM /home/ahuaracab/Desktop/projects/testingyes-cucumber-project/serenity.properties 
 
-00:16:13.590 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM /home/ahuaracab/Desktop/projects/testingyes-cucumber-project/serenity.properties 
+11:03:59.790 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM /home/ahuaracab/Desktop/projects/testingyes-cucumber-project/serenity.properties 
 
-00:16:13.590 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM /home/ahuaracab/Desktop/projects/testingyes-cucumber-project/serenity.properties 
+11:03:59.790 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM /home/ahuaracab/Desktop/projects/testingyes-cucumber-project/serenity.properties 
 
-00:16:13.599 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - webdriver.driver=chrome
+11:03:59.796 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - webdriver.driver=chrome
 
-00:16:13.599 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - drivers.linux.webdriver.chrome.driver=src/test/resources/webdriver/linux/chromedriver
+11:03:59.797 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - drivers.linux.webdriver.chrome.driver=src/test/resources/webdriver/linux/chromedriver
 
-00:16:13.599 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - drivers.linux.webdriver.gecko.driver=src/test/resources/webdriver/linux/geckodriver
+11:03:59.797 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - drivers.linux.webdriver.gecko.driver=src/test/resources/webdriver/linux/geckodriver
 
-00:16:13.599 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.test.root=testingyes
+11:03:59.797 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.test.root=testingyes
 
-00:16:13.599 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.project.name=Automatizacion de Pruebas Para TestingYes
+11:03:59.797 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.project.name=Automatizacion de Pruebas Para TestingYes
 
-00:16:13.600 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.browser.maximized=true
+11:03:59.797 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.browser.maximized=true
 
 Feature from file:///home/ahuaracab/Desktop/projects/testingyes-cucumber-project/src/test/resources/features/testcase_testingyes.feature
-00:16:13.928 [pool-2-thread-1] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM /home/ahuaracab/Desktop/projects/testingyes-cucumber-project/serenity.properties 
+11:04:00.137 [pool-2-thread-1] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM /home/ahuaracab/Desktop/projects/testingyes-cucumber-project/serenity.properties 
 
-00:16:13.949 [pool-2-thread-1] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM /home/ahuaracab/Desktop/projects/testingyes-cucumber-project/serenity.properties 
+11:04:00.167 [pool-2-thread-1] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM /home/ahuaracab/Desktop/projects/testingyes-cucumber-project/serenity.properties 
 
-00:16:13.950 [pool-2-thread-1] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM /home/ahuaracab/Desktop/projects/testingyes-cucumber-project/serenity.properties 
+11:04:00.167 [pool-2-thread-1] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM /home/ahuaracab/Desktop/projects/testingyes-cucumber-project/serenity.properties 
 
-00:16:13.950 [pool-2-thread-1] DEBUG n.t.c.u.PropertiesFileLocalPreferences - webdriver.driver=chrome
+11:04:00.168 [pool-2-thread-1] DEBUG n.t.c.u.PropertiesFileLocalPreferences - webdriver.driver=chrome
 
-00:16:13.950 [pool-2-thread-1] DEBUG n.t.c.u.PropertiesFileLocalPreferences - drivers.linux.webdriver.chrome.driver=src/test/resources/webdriver/linux/chromedriver
+11:04:00.168 [pool-2-thread-1] DEBUG n.t.c.u.PropertiesFileLocalPreferences - drivers.linux.webdriver.chrome.driver=src/test/resources/webdriver/linux/chromedriver
 
-00:16:13.950 [pool-2-thread-1] DEBUG n.t.c.u.PropertiesFileLocalPreferences - drivers.linux.webdriver.gecko.driver=src/test/resources/webdriver/linux/geckodriver
+11:04:00.168 [pool-2-thread-1] DEBUG n.t.c.u.PropertiesFileLocalPreferences - drivers.linux.webdriver.gecko.driver=src/test/resources/webdriver/linux/geckodriver
 
-00:16:13.950 [pool-2-thread-1] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.test.root=testingyes
+11:04:00.168 [pool-2-thread-1] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.test.root=testingyes
 
-00:16:13.951 [pool-2-thread-1] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.project.name=Automatizacion de Pruebas Para TestingYes
+11:04:00.169 [pool-2-thread-1] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.project.name=Automatizacion de Pruebas Para TestingYes
 
-00:16:13.951 [pool-2-thread-1] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.browser.maximized=true
+11:04:00.169 [pool-2-thread-1] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.browser.maximized=true
 
-00:16:13.959 [pool-2-thread-1] INFO   - 
+11:04:00.177 [pool-2-thread-1] INFO   - 
 
 -------------------------------------------------------------------------------------
      _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
@@ -133,454 +124,83 @@ Feature from file:///home/ahuaracab/Desktop/projects/testingyes-cucumber-project
 -------------------------------------------------------------------------------------
 
 
-00:16:13.961 [pool-2-thread-1] DEBUG n.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@cd700edf
+11:04:00.180 [pool-2-thread-1] DEBUG n.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@cd700edf
 
-00:16:13.963 [pool-2-thread-1] INFO   - Test Suite Started: Registro de usuario en TestingYes
-
-00:16:31.875 [pool-2-thread-1] ERROR  - 
-           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
-  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
- (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
-  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
- (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
-          \_\                                                            
-
-Registro de usuario con solo los campos obligatorios
---------------------------------------------------------------------------
-
-00:16:31.877 [pool-2-thread-1] DEBUG  - RELATED ISSUES: 
-
-00:16:31.960 [pool-2-thread-1] ERROR  -     Test failed at step: Ingresar datos: Angelo, Huaraca, Peru, Los Olivos, Lima, Lima, 15037, 946532941, test0003@mailinator.com, 1234567, 1234567
-
-00:16:31.961 [pool-2-thread-1] ERROR  -     Expected enabled element was not enabledBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'angelohb', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-109-generic', java.version: '1.8.0_252'Driver info: driver.version: unknown
-
-00:16:49.482 [pool-2-thread-1] ERROR  - 
-           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
-  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
- (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
-  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
- (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
-          \_\                                                            
-
-Registro de usuario con solo los campos obligatorios
---------------------------------------------------------------------------
-
-00:16:49.482 [pool-2-thread-1] DEBUG  - RELATED ISSUES: 
-
-00:16:49.482 [pool-2-thread-1] ERROR  -     Test failed at step: Ingresar datos: Carlos, Fernandez, Argentina, La Perla, La Plata, La Plata, 11234, 985632147, test0004@mailinator.com, 3234567, 3234567
-
-00:16:49.482 [pool-2-thread-1] ERROR  -     Expected enabled element was not enabledBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'angelohb', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-109-generic', java.version: '1.8.0_252'Driver info: driver.version: unknown
+11:04:00.181 [pool-2-thread-1] INFO   - Test Suite Started: Registro de usuario en TestingYes
 
 
-&amp#27;[31mFailed scenarios:&amp#27;[0m
-&amp#27;[31mfile:///home/ahuaracab/Desktop/projects/testingyes-cucumber-project/src/test/resources/features/testcase_testingyes.feature:13&amp#27;[0m
-# Registro de usuario con solo los campos obligatorios
-&amp#27;[31mfile:///home/ahuaracab/Desktop/projects/testingyes-cucumber-project/src/test/resources/features/testcase_testingyes.feature:14&amp#27;[0m
-# Registro de usuario con solo los campos obligatorios
-
-2
+4
  Scenarios (
-&amp#27;[31m2 failed&amp#27;[0m
-)
-8
- Steps (
-&amp#27;[31m2 failed&amp#27;[0m
-, 
-&amp#27;[36m2 skipped&amp#27;[0m
-, 
 &amp#27;[32m4 passed&amp#27;[0m
 )
+16
+ Steps (
+&amp#27;[32m16 passed&amp#27;[0m
+)
 0m
-35.721s
+54.628s
 
 
-net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
-	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:1148)
-	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:953)
-	at net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:810)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)
-	at com.sun.proxy.$Proxy34.type(Unknown Source)
-	at testingyes.page.PaginaLogInTestingYes.ingresarDireccion(PaginaLogInTestingYes.java:60)
-	at testingyes.page.PaginaLogInTestingYes$ByteBuddy$fBpHK2X9.ingresarDireccion$accessor$5LJEe3tU(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
-	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
-	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:394)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:179)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
-	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at testingyes.page.PaginaLogInTestingYes$ByteBuddy$fBpHK2X9.ingresarDireccion(Unknown Source)
-	at testingyes.page.PaginaLogInTestingYes.ingresarDatos(PaginaLogInTestingYes.java:99)
-	at testingyes.page.PaginaLogInTestingYes$ByteBuddy$fBpHK2X9.ingresarDatos$accessor$5LJEe3tU(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
-	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
-	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:394)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:179)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
-	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at testingyes.page.PaginaLogInTestingYes$ByteBuddy$fBpHK2X9.ingresarDatos(Unknown Source)
-	at testingyes.step.UsuarioParaRegistro.seRegistraCon(UsuarioParaRegistro.java:38)
-	at testingyes.step.UsuarioParaRegistro$ByteBuddy$e4pIrWh3.seRegistraCon$accessor$QyvBL3AH(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:488)
-	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:468)
-	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:441)
-	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:197)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:184)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
-	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at testingyes.step.UsuarioParaRegistro$ByteBuddy$e4pIrWh3.seRegistraCon(Unknown Source)
-	at testingyes.stepdefinition.DefinicionDePasosParaRegistro.se_registra_con(DefinicionDePasosParaRegistro.java:30)
-	at ✽.angelo se registra con los datos obligatorios: nombre: Angelo , apellido: Huaraca , pais: Peru , direccion: Los Olivos , ciudad: Lima , provincia: Lima , codigo postal: 15037 , telefono: 946532941 , email: test0003@mailinator.com , contrasena: 1234567 y confirmacion de contrasena: 1234567(file:///home/ahuaracab/Desktop/projects/testingyes-cucumber-project/src/test/resources/features/testcase_testingyes.feature:8)
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for PaginaLogInTestingYes.cajaDeDireccion to be enabled (tried for 5 second(s) with 100 milliseconds interval)
-	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:1145)
-	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:953)
-	at net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:810)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)
-	at com.sun.proxy.$Proxy34.type(Unknown Source)
-	at testingyes.page.PaginaLogInTestingYes.ingresarDireccion(PaginaLogInTestingYes.java:60)
-	at testingyes.page.PaginaLogInTestingYes$ByteBuddy$fBpHK2X9.ingresarDireccion$accessor$5LJEe3tU(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
-	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
-	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:394)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:179)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
-	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at testingyes.page.PaginaLogInTestingYes$ByteBuddy$fBpHK2X9.ingresarDireccion(Unknown Source)
-	at testingyes.page.PaginaLogInTestingYes.ingresarDatos(PaginaLogInTestingYes.java:99)
-	at testingyes.page.PaginaLogInTestingYes$ByteBuddy$fBpHK2X9.ingresarDatos$accessor$5LJEe3tU(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
-	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
-	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:394)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:179)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
-	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at testingyes.page.PaginaLogInTestingYes$ByteBuddy$fBpHK2X9.ingresarDatos(Unknown Source)
-	at testingyes.step.UsuarioParaRegistro.seRegistraCon(UsuarioParaRegistro.java:38)
-	at testingyes.step.UsuarioParaRegistro$ByteBuddy$e4pIrWh3.seRegistraCon$accessor$QyvBL3AH(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:488)
-	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:468)
-	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:441)
-	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:197)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:184)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
-	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at testingyes.step.UsuarioParaRegistro$ByteBuddy$e4pIrWh3.seRegistraCon(Unknown Source)
-	at testingyes.stepdefinition.DefinicionDePasosParaRegistro.se_registra_con(DefinicionDePasosParaRegistro.java:30)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at io.cucumber.java.Invoker.invoke(Invoker.java:27)
-	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:49)
-	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:51)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:66)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:149)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:227)
-	at io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:54)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)
-	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
-	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:362)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at io.cucumber.junit.CucumberSerenityRunner$RunCucumber.evaluate(CucumberSerenityRunner.java:254)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.junit.runners.Suite.runChild(Suite.java:128)
-	at org.junit.runners.Suite.runChild(Suite.java:27)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.NoSuchElementException: Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'angelohb', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-109-generic', java.version: '1.8.0_252'
-Driver info: driver.version: unknown
-	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:166)
-	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:118)
-	at net.serenitybdd.core.pages.WebElementResolverByElementLocator.resolveForDriver(WebElementResolverByElementLocator.java:30)
-	at net.serenitybdd.core.pages.WebElementFacadeImpl.getResolvedELement(WebElementFacadeImpl.java:234)
-	at net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:229)
-	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:63)
-	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:55)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	... 93 more
+11:04:54.610 [pool-2-thread-1] DEBUG n.t.core.reports.ReportService - Reporting formats: [JSON, HTML]
 
-net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
-	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:1148)
-	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:953)
-	at net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:810)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)
-	at com.sun.proxy.$Proxy34.type(Unknown Source)
-	at testingyes.page.PaginaLogInTestingYes.ingresarDireccion(PaginaLogInTestingYes.java:60)
-	at testingyes.page.PaginaLogInTestingYes$ByteBuddy$fBpHK2X9.ingresarDireccion$accessor$5LJEe3tU(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
-	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
-	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:394)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:179)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
-	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at testingyes.page.PaginaLogInTestingYes$ByteBuddy$fBpHK2X9.ingresarDireccion(Unknown Source)
-	at testingyes.page.PaginaLogInTestingYes.ingresarDatos(PaginaLogInTestingYes.java:99)
-	at testingyes.page.PaginaLogInTestingYes$ByteBuddy$fBpHK2X9.ingresarDatos$accessor$5LJEe3tU(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
-	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
-	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:394)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:179)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
-	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at testingyes.page.PaginaLogInTestingYes$ByteBuddy$fBpHK2X9.ingresarDatos(Unknown Source)
-	at testingyes.step.UsuarioParaRegistro.seRegistraCon(UsuarioParaRegistro.java:38)
-	at testingyes.step.UsuarioParaRegistro$ByteBuddy$e4pIrWh3.seRegistraCon$accessor$QyvBL3AH(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:488)
-	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:468)
-	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:441)
-	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:197)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:184)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
-	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at testingyes.step.UsuarioParaRegistro$ByteBuddy$e4pIrWh3.seRegistraCon(Unknown Source)
-	at testingyes.stepdefinition.DefinicionDePasosParaRegistro.se_registra_con(DefinicionDePasosParaRegistro.java:30)
-	at ✽.angelo se registra con los datos obligatorios: nombre: Carlos , apellido: Fernandez , pais: Argentina , direccion: La Perla , ciudad: La Plata , provincia: La Plata , codigo postal: 11234 , telefono: 985632147 , email: test0004@mailinator.com , contrasena: 3234567 y confirmacion de contrasena: 3234567(file:///home/ahuaracab/Desktop/projects/testingyes-cucumber-project/src/test/resources/features/testcase_testingyes.feature:8)
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for PaginaLogInTestingYes.cajaDeDireccion to be enabled (tried for 5 second(s) with 100 milliseconds interval)
-	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:1145)
-	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:953)
-	at net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:810)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)
-	at com.sun.proxy.$Proxy34.type(Unknown Source)
-	at testingyes.page.PaginaLogInTestingYes.ingresarDireccion(PaginaLogInTestingYes.java:60)
-	at testingyes.page.PaginaLogInTestingYes$ByteBuddy$fBpHK2X9.ingresarDireccion$accessor$5LJEe3tU(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
-	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
-	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:394)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:179)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
-	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at testingyes.page.PaginaLogInTestingYes$ByteBuddy$fBpHK2X9.ingresarDireccion(Unknown Source)
-	at testingyes.page.PaginaLogInTestingYes.ingresarDatos(PaginaLogInTestingYes.java:99)
-	at testingyes.page.PaginaLogInTestingYes$ByteBuddy$fBpHK2X9.ingresarDatos$accessor$5LJEe3tU(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
-	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
-	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:394)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:179)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
-	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at testingyes.page.PaginaLogInTestingYes$ByteBuddy$fBpHK2X9.ingresarDatos(Unknown Source)
-	at testingyes.step.UsuarioParaRegistro.seRegistraCon(UsuarioParaRegistro.java:38)
-	at testingyes.step.UsuarioParaRegistro$ByteBuddy$e4pIrWh3.seRegistraCon$accessor$QyvBL3AH(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:488)
-	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:468)
-	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:441)
-	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:197)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:184)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
-	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at testingyes.step.UsuarioParaRegistro$ByteBuddy$e4pIrWh3.seRegistraCon(Unknown Source)
-	at testingyes.stepdefinition.DefinicionDePasosParaRegistro.se_registra_con(DefinicionDePasosParaRegistro.java:30)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at io.cucumber.java.Invoker.invoke(Invoker.java:27)
-	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:49)
-	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:51)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:66)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:149)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:227)
-	at io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:54)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)
-	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
-	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:362)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at io.cucumber.junit.CucumberSerenityRunner$RunCucumber.evaluate(CucumberSerenityRunner.java:254)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.junit.runners.Suite.runChild(Suite.java:128)
-	at org.junit.runners.Suite.runChild(Suite.java:27)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.NoSuchElementException: Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'angelohb', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-109-generic', java.version: '1.8.0_252'
-Driver info: driver.version: unknown
-	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:166)
-	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:118)
-	at net.serenitybdd.core.pages.WebElementResolverByElementLocator.resolveForDriver(WebElementResolverByElementLocator.java:30)
-	at net.serenitybdd.core.pages.WebElementFacadeImpl.getResolvedELement(WebElementFacadeImpl.java:234)
-	at net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:229)
-	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:63)
-	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:55)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	... 93 more
+11:04:54.677 [pool-2-thread-1] DEBUG n.t.core.reports.ReportService - Reporting formats: [JSON, HTML]
 
+11:04:54.687 [pool-2-thread-1] DEBUG n.t.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@3084f4e5
 
-00:16:49.497 [pool-2-thread-1] DEBUG n.t.core.reports.ReportService - Reporting formats: [JSON, HTML]
+11:04:54.687 [pool-2-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome Registro de usuario en TestingYes:Registro de usuario con solo los campos obligatorios
 
-00:16:49.676 [pool-2-thread-1] DEBUG n.t.core.reports.ReportService - Reporting formats: [JSON, HTML]
+11:04:54.687 [pool-2-thread-1] DEBUG n.t.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@3084f4e5: Generating report for test outcome: Registro de usuario en TestingYes:Registro de usuario con solo los campos obligatorios
 
-00:16:49.692 [pool-2-thread-1] DEBUG n.t.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@1244e6e1
+11:04:54.689 [pool-2-thread-1] DEBUG n.t.c.r.json.JSONTestOutcomeReporter - Generating JSON report for Registro de usuario con solo los campos obligatorios to file /home/ahuaracab/Desktop/projects/testingyes-cucumber-project/target/site/serenity/465bd9caa690cf6fe33f25e4b7b200520d7203b056fee6dc67d563a6b61aeb6b.json (using temp file /home/ahuaracab/Desktop/projects/testingyes-cucumber-project/target/site/serenity/465bd9caa690cf6fe33f25e4b7b200520d7203b056fee6dc67d563a6b61aeb6b.json5f05f6f8-805c-4281-a6a6-a97e8f9526d7)
 
-00:16:49.693 [pool-2-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome Registro de usuario en TestingYes:Registro de usuario con solo los campos obligatorios
+11:04:54.730 [pool-2-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome Registro de usuario en TestingYes:Registro de usuario con solo los campos obligatorios done
 
-00:16:49.693 [pool-2-thread-1] DEBUG n.t.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@1244e6e1: Generating report for test outcome: Registro de usuario en TestingYes:Registro de usuario con solo los campos obligatorios
+11:04:54.731 [pool-2-thread-1] DEBUG n.t.core.reports.ReportService - Shutting down executor service
 
-00:16:49.695 [pool-2-thread-1] DEBUG n.t.c.r.json.JSONTestOutcomeReporter - Generating JSON report for Registro de usuario con solo los campos obligatorios to file /home/ahuaracab/Desktop/projects/testingyes-cucumber-project/target/site/serenity/465bd9caa690cf6fe33f25e4b7b200520d7203b056fee6dc67d563a6b61aeb6b.json (using temp file /home/ahuaracab/Desktop/projects/testingyes-cucumber-project/target/site/serenity/465bd9caa690cf6fe33f25e4b7b200520d7203b056fee6dc67d563a6b61aeb6b.jsonb65cf579-ab16-463e-912a-7e3650bba270)
+11:04:54.731 [pool-2-thread-1] DEBUG n.t.core.reports.ReportService - Reports generated in: 44 ms
 
-00:16:49.798 [pool-2-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome Registro de usuario en TestingYes:Registro de usuario con solo los campos obligatorios done
+11:04:54.731 [pool-2-thread-1] DEBUG n.t.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@5c9d3d43
 
-00:16:49.798 [pool-2-thread-1] DEBUG n.t.core.reports.ReportService - Shutting down executor service
+11:04:54.731 [pool-3-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome Registro de usuario en TestingYes:Registro de usuario con solo los campos obligatorios
 
-00:16:49.799 [pool-2-thread-1] DEBUG n.t.core.reports.ReportService - Reports generated in: 107 ms
+11:04:54.731 [pool-3-thread-1] DEBUG n.t.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@5c9d3d43: Generating report for test outcome: Registro de usuario en TestingYes:Registro de usuario con solo los campos obligatorios
 
-00:16:49.799 [pool-2-thread-1] DEBUG n.t.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@284d23f1
+11:04:54.732 [pool-3-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR Registro de usuario con solo los campos obligatorios in 465bd9caa690cf6fe33f25e4b7b200520d7203b056fee6dc67d563a6b61aeb6b
 
-00:16:49.800 [pool-3-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome Registro de usuario en TestingYes:Registro de usuario con solo los campos obligatorios
+11:04:54.740 [pool-3-thread-1] DEBUG n.t.c.r.PackageRequirementsTagProvider - Loading requirements from package requirements at: testingyes
 
-00:16:49.801 [pool-3-thread-1] DEBUG n.t.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@284d23f1: Generating report for test outcome: Registro de usuario en TestingYes:Registro de usuario con solo los campos obligatorios
+11:04:55.042 [pool-3-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Registro de usuario en TestingYes
 
-00:16:49.801 [pool-3-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR Registro de usuario con solo los campos obligatorios in 465bd9caa690cf6fe33f25e4b7b200520d7203b056fee6dc67d563a6b61aeb6b
+11:04:55.043 [pool-3-thread-1] DEBUG n.t.c.r.RequirementsTagProvider -  found:[Requirement{name='Registro de usuario en TestingYes', type='feature' parent = 'null', cardNumber='null'}]
 
-00:16:49.832 [pool-3-thread-1] DEBUG n.t.c.r.PackageRequirementsTagProvider - Loading requirements from package requirements at: testingyes
+11:04:55.054 [pool-3-thread-1] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome Registro de usuario con solo los campos obligatorios-[]: Optional[Requirement{name='Registro de usuario en TestingYes', type='feature' parent = 'null', cardNumber='null'}]
 
-00:16:50.252 [pool-3-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Registro de usuario en TestingYes
+11:04:55.056 [pool-3-thread-1] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome Registro de usuario con solo los campos obligatorios-[]: Optional[Requirement{name='Registro de usuario en TestingYes', type='feature' parent = 'null', cardNumber='null'}]
 
-00:16:50.253 [pool-3-thread-1] DEBUG n.t.c.r.RequirementsTagProvider -  found:[Requirement{name='Registro de usuario en TestingYes', type='feature' parent = 'null', cardNumber='null'}]
+11:04:55.089 [pool-3-thread-1] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome Registro de usuario con solo los campos obligatorios-[]: Optional[Requirement{name='Registro de usuario en TestingYes', type='feature' parent = 'null', cardNumber='null'}]
 
-00:16:50.261 [pool-3-thread-1] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome Registro de usuario con solo los campos obligatorios-[]: Optional[Requirement{name='Registro de usuario en TestingYes', type='feature' parent = 'null', cardNumber='null'}]
+11:04:55.091 [pool-3-thread-1] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome Registro de usuario con solo los campos obligatorios-[]: Optional[Requirement{name='Registro de usuario en TestingYes', type='feature' parent = 'null', cardNumber='null'}]
 
-00:16:50.263 [pool-3-thread-1] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome Registro de usuario con solo los campos obligatorios-[]: Optional[Requirement{name='Registro de usuario en TestingYes', type='feature' parent = 'null', cardNumber='null'}]
+11:04:55.164 [pool-3-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - Generating report in 465bd9caa690cf6fe33f25e4b7b200520d7203b056fee6dc67d563a6b61aeb6b_screenshots.html
 
-00:16:50.284 [pool-3-thread-1] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome Registro de usuario con solo los campos obligatorios-[]: Optional[Requirement{name='Registro de usuario en TestingYes', type='feature' parent = 'null', cardNumber='null'}]
+11:04:55.610 [pool-3-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - Generated report 465bd9caa690cf6fe33f25e4b7b200520d7203b056fee6dc67d563a6b61aeb6b_screenshots.html in 446 ms
 
-00:16:50.286 [pool-3-thread-1] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome Registro de usuario con solo los campos obligatorios-[]: Optional[Requirement{name='Registro de usuario en TestingYes', type='feature' parent = 'null', cardNumber='null'}]
+11:04:55.612 [pool-3-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Registro de usuario en TestingYes:Registro de usuario con solo los campos obligatorios in 465bd9caa690cf6fe33f25e4b7b200520d7203b056fee6dc67d563a6b61aeb6b.html in directory target/site/serenity  
 
-00:16:50.383 [pool-3-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - Generating report in 465bd9caa690cf6fe33f25e4b7b200520d7203b056fee6dc67d563a6b61aeb6b_screenshots.html
+11:04:55.740 [pool-3-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - Generating report in 465bd9caa690cf6fe33f25e4b7b200520d7203b056fee6dc67d563a6b61aeb6b.html
 
-00:16:50.888 [pool-3-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - Generated report 465bd9caa690cf6fe33f25e4b7b200520d7203b056fee6dc67d563a6b61aeb6b_screenshots.html in 505 ms
+11:04:56.070 [pool-3-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - Generated report 465bd9caa690cf6fe33f25e4b7b200520d7203b056fee6dc67d563a6b61aeb6b.html in 330 ms
 
-00:16:50.894 [pool-3-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Registro de usuario en TestingYes:Registro de usuario con solo los campos obligatorios in 465bd9caa690cf6fe33f25e4b7b200520d7203b056fee6dc67d563a6b61aeb6b.html in directory target/site/serenity  
+11:04:56.071 [pool-3-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome Registro de usuario en TestingYes:Registro de usuario con solo los campos obligatorios done
 
-00:16:51.190 [pool-3-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - Generating report in 465bd9caa690cf6fe33f25e4b7b200520d7203b056fee6dc67d563a6b61aeb6b.html
+11:04:56.071 [pool-2-thread-1] DEBUG n.t.core.reports.ReportService - Shutting down executor service
 
-00:16:51.563 [pool-3-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - Generated report 465bd9caa690cf6fe33f25e4b7b200520d7203b056fee6dc67d563a6b61aeb6b.html in 373 ms
+11:04:56.071 [pool-2-thread-1] DEBUG n.t.core.reports.ReportService - Reports generated in: 1340 ms
 
-00:16:51.573 [pool-3-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome Registro de usuario en TestingYes:Registro de usuario con solo los campos obligatorios done
-
-00:16:51.573 [pool-2-thread-1] DEBUG n.t.core.reports.ReportService - Shutting down executor service
-
-00:16:51.573 [pool-2-thread-1] DEBUG n.t.core.reports.ReportService - Reports generated in: 1774 ms
-
-00:16:51.873 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Closing darkroom
+11:04:56.188 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Closing darkroom
 
 Feature from file:///home/ahuaracab/Desktop/projects/testingyes-cucumber-project/src/test/resources/features/testcase_testingyes.feature
-00:16:14.123 [pool-2-thread-1] INFO   - 
+11:04:00.347 [pool-2-thread-1] INFO   - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -589,72 +209,161 @@ Feature from file:///home/ahuaracab/Desktop/projects/testingyes-cucumber-project
 
 Registro de usuario con solo los campos obligatorios(registro-de-usuario-en-testingyes;registro-de-usuario-con-solo-los-campos-obligatorios)
 -------------------------------------------------------------------
-00:16:14.204 [pool-2-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Registro de usuario en TestingYes
-00:16:14.948 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: DefinicionDePasosParaRegistro.ingresa_a_testingyes - #actor ingresa a TestingYes
-00:16:15.417 [pool-2-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
-00:16:15.418 [pool-2-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-00:16:19.435 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Opening darkroom
-00:16:19.436 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Darkroom processing line starting up
-00:16:20.125 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target/site/serenity/ff157b032683f9395c8e899fbd211a4fbc96551b17d30ff345d006de7c776109.png
-00:16:20.125 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-1383806389679016410
-00:16:20.125 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target/site/serenity/ff157b032683f9395c8e899fbd211a4fbc96551b17d30ff345d006de7c776109.png
-00:16:20.129 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: #actor ingresa a TestingYes
-00:16:20.143 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: DefinicionDePasosParaRegistro.ingresa_a_log_in - #actor ingresa a la pagina de log in
-00:16:21.756 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target/site/serenity/2f858ab91211a5846b2128380852e9f06fbee7f0003a973f226e897ee725c8e7.png
-00:16:21.756 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-7732366677389619897
-00:16:21.756 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target/site/serenity/2f858ab91211a5846b2128380852e9f06fbee7f0003a973f226e897ee725c8e7.png
-00:16:21.757 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: #actor ingresa a la pagina de log in
-00:16:21.771 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: DefinicionDePasosParaRegistro.se_registra_con - #actor se registra con los datos obligatorios: nombre: {0} , apellido: {1} , pais: {2} , direccion: {3} , ciudad: {4} , provincia: {5} , codigo postal: {6} , telefono: {7}, email: {8} , contrasena: {9} y confirmacion de con contrasena {10}$
-00:16:31.627 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target/site/serenity/5b566a12e8cd224bf56f29af3fc97cb67c0b89453d6d32002015169c64930aea.png
-00:16:31.627 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-4808046889349610882
-00:16:31.627 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target/site/serenity/5b566a12e8cd224bf56f29af3fc97cb67c0b89453d6d32002015169c64930aea.png
-00:16:36.812 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-3122469740159198696
-00:16:36.812 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target/site/serenity/e3c4ae6ec03e04cd37a6cc971f58cd3e48152710a20eace062bd754d0dd567d5.png
-00:16:38.172 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-6966045435637659521
-00:16:38.172 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target/site/serenity/c581612e084d8740c45bb707d6fcdf293378768d521259f5d2ea67105ab90cd2.png
-00:16:48.692 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-1720904390575930569
-00:16:48.692 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target/site/serenity/6722c9a91ab8650e1b5b89cd6ccdd29c69f35f7470fa0257fffe7700b798007f.png
-00:16:51.873 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Darkroom processing line shutting down
+11:04:00.433 [pool-2-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Registro de usuario en TestingYes
+11:04:01.134 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: DefinicionDePasosParaRegistro.ingresa_a_testingyes - #actor ingresa a TestingYes
+11:04:01.656 [pool-2-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+11:04:01.658 [pool-2-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+11:04:06.343 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Opening darkroom
+11:04:06.344 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Darkroom processing line starting up
+11:04:06.977 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target/site/serenity/87afb7065a1bb6ff7b2e849c6bdf131c4d0c5827ce81445d3f9a35657e975233.png
+11:04:06.978 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-7382437614571346730
+11:04:06.978 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target/site/serenity/87afb7065a1bb6ff7b2e849c6bdf131c4d0c5827ce81445d3f9a35657e975233.png
+11:04:06.981 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: #actor ingresa a TestingYes
+11:04:06.992 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: DefinicionDePasosParaRegistro.ingresa_a_log_in - #actor ingresa a la pagina de log in
+11:04:08.280 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target/site/serenity/3944f7aba0e6af4bf3579887a233ab035a7db7450abbbb7d8d7d43b16f57bc39.png
+11:04:08.280 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-1733505364121385151
+11:04:08.281 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target/site/serenity/3944f7aba0e6af4bf3579887a233ab035a7db7450abbbb7d8d7d43b16f57bc39.png
+11:04:08.281 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: #actor ingresa a la pagina de log in
+11:04:08.295 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: DefinicionDePasosParaRegistro.se_registra_con - #actor se registra con los datos obligatorios: nombre: {0} , apellido: {1} , pais: {2} , direccion: {3} , ciudad: {4} , provincia: {5} , codigo postal: {6} , telefono: {7}, email: {8} , contrasena: {9} y confirmacion de con contrasena {10}$
+11:04:14.067 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target/site/serenity/9349b8bb3c1bcbdb40c0fa2cab7551c8ecc9f33c0480b6b78fc2f5cde647546e.png
+11:04:14.067 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-2785135222258420554
+11:04:14.067 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: #actor se registra con los datos obligatorios: nombre: {0} , apellido: {1} , pais: {2} , direccion: {3} , ciudad: {4} , provincia: {5} , codigo postal: {6} , telefono: {7}, email: {8} , contrasena: {9} y confirmacion de con contrasena {10}$
+11:04:14.067 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target/site/serenity/9349b8bb3c1bcbdb40c0fa2cab7551c8ecc9f33c0480b6b78fc2f5cde647546e.png
+11:04:14.078 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: DefinicionDePasosParaRegistro.deberia_ver_la_confirmacion_de_registro - #actor deberia ver la confirmacion de registro: {0}
+11:04:14.600 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target/site/serenity/9349b8bb3c1bcbdb40c0fa2cab7551c8ecc9f33c0480b6b78fc2f5cde647546e.png
+11:04:14.601 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: #actor deberia ver la confirmacion de registro: {0}
+11:04:14.988 [pool-2-thread-1] INFO   - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+Registro de usuario con solo los campos obligatorios
+----------------------------------------------------------------------------
+11:04:19.882 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-8077030475479290176
+11:04:19.882 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target/site/serenity/6982843e1fd682382e7d9d5fea966f55ebffa5f85a85aee3d52f57ed20e1cc96.png
+11:04:21.037 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-8168379036148338599
+11:04:21.037 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target/site/serenity/6721a2fb359e918102d1a72fa394eb7a9ac977453a32fea160b43b87b50e0fc0.png
+11:04:27.736 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-2973424080850258078
+11:04:27.736 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target/site/serenity/3758a797e8368bb907ece10b2bcce921f5cac0b2f0ab892435346eba4c184e0d.png
+11:04:33.968 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-1903048873960754596
+11:04:33.969 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target/site/serenity/c7197c2d7a2af703cceae6b30adbaf46af17150066a6d39a2412ce8a8203f41b.png
+11:04:35.250 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-5488386957166891932
+11:04:35.250 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target/site/serenity/f9a1669d3b9d6e468eb4180bdf646540f2700a7e989c892778a1f1d3c4440857.png
+11:04:41.231 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-6984608671684769568
+11:04:41.231 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target/site/serenity/7f4fe5fd349a2f6303314ae9382522ec9dd1c7d93fa38a97eac094a2cee485ca.png
+11:04:46.737 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-8510826349628793141
+11:04:46.737 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target/site/serenity/c44f39c605eb40ce3cf588eeb5a2d6719dc8d953cc3c6ad6094a56dabc40a14e.png
+11:04:47.938 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-1492858094704276378
+11:04:47.938 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target/site/serenity/2fe8a255918138770a2d17ef43a082742ddd67bd4e1e5ac00ce29e3bc1faef96.png
+11:04:53.876 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-2265915658710577129
+11:04:53.876 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target/site/serenity/da3f69403241a13679347b8e0aec49e4f53b65232f224ad2b15b46815a39267f.png
+11:04:56.188 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Darkroom processing line shutting down
 ]]></system-out>
-    <system-err><![CDATA[Jul 18, 2020 12:16:14 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+    <system-err><![CDATA[Jul 18, 2020 11:04:01 AM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 22582
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 19454
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 18, 2020 12:16:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1595088242.225][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+Jul 18, 2020 11:04:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Registro de usuario con solo los campos obligatorios" classname="Registro de usuario en TestingYes" time="17.09">
-    <error message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException"><![CDATA[net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for PaginaLogInTestingYes.cajaDeDireccion to be enabled (tried for 5 second(s) with 100 milliseconds interval)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'angelohb', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-109-generic', java.version: '1.8.0_252'
-Driver info: driver.version: unknown
-]]></error>
+  <testcase name="Registro de usuario con solo los campos obligatorios" classname="Registro de usuario en TestingYes" time="13.688">
     <system-out><![CDATA[Feature from file:///home/ahuaracab/Desktop/projects/testingyes-cucumber-project/src/test/resources/features/testcase_testingyes.feature
-00:16:32.000 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: DefinicionDePasosParaRegistro.ingresa_a_testingyes - #actor ingresa a TestingYes
-00:16:32.250 [pool-2-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
-00:16:32.251 [pool-2-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-00:16:36.811 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target/site/serenity/e3c4ae6ec03e04cd37a6cc971f58cd3e48152710a20eace062bd754d0dd567d5.png
-00:16:36.812 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: #actor ingresa a TestingYes
-00:16:36.826 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: DefinicionDePasosParaRegistro.ingresa_a_log_in - #actor ingresa a la pagina de log in
-00:16:38.172 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target/site/serenity/c581612e084d8740c45bb707d6fcdf293378768d521259f5d2ea67105ab90cd2.png
-00:16:38.172 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: #actor ingresa a la pagina de log in
-00:16:38.181 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: DefinicionDePasosParaRegistro.se_registra_con - #actor se registra con los datos obligatorios: nombre: {0} , apellido: {1} , pais: {2} , direccion: {3} , ciudad: {4} , provincia: {5} , codigo postal: {6} , telefono: {7}, email: {8} , contrasena: {9} y confirmacion de con contrasena {10}$
-00:16:48.692 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target/site/serenity/6722c9a91ab8650e1b5b89cd6ccdd29c69f35f7470fa0257fffe7700b798007f.png
+11:04:15.028 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: DefinicionDePasosParaRegistro.ingresa_a_testingyes - #actor ingresa a TestingYes
+11:04:15.318 [pool-2-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+11:04:15.319 [pool-2-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+11:04:19.882 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target/site/serenity/6982843e1fd682382e7d9d5fea966f55ebffa5f85a85aee3d52f57ed20e1cc96.png
+11:04:19.882 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: #actor ingresa a TestingYes
+11:04:19.890 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: DefinicionDePasosParaRegistro.ingresa_a_log_in - #actor ingresa a la pagina de log in
+11:04:21.037 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target/site/serenity/6721a2fb359e918102d1a72fa394eb7a9ac977453a32fea160b43b87b50e0fc0.png
+11:04:21.037 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: #actor ingresa a la pagina de log in
+11:04:21.047 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: DefinicionDePasosParaRegistro.se_registra_con - #actor se registra con los datos obligatorios: nombre: {0} , apellido: {1} , pais: {2} , direccion: {3} , ciudad: {4} , provincia: {5} , codigo postal: {6} , telefono: {7}, email: {8} , contrasena: {9} y confirmacion de con contrasena {10}$
+11:04:27.735 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target/site/serenity/3758a797e8368bb907ece10b2bcce921f5cac0b2f0ab892435346eba4c184e0d.png
+11:04:27.736 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: #actor se registra con los datos obligatorios: nombre: {0} , apellido: {1} , pais: {2} , direccion: {3} , ciudad: {4} , provincia: {5} , codigo postal: {6} , telefono: {7}, email: {8} , contrasena: {9} y confirmacion de con contrasena {10}$
+11:04:27.744 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: DefinicionDePasosParaRegistro.deberia_ver_la_confirmacion_de_registro - #actor deberia ver la confirmacion de registro: {0}
+11:04:28.496 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target/site/serenity/3758a797e8368bb907ece10b2bcce921f5cac0b2f0ab892435346eba4c184e0d.png
+11:04:28.497 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: #actor deberia ver la confirmacion de registro: {0}
+11:04:28.679 [pool-2-thread-1] INFO   - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+Registro de usuario con solo los campos obligatorios
+----------------------------------------------------------------------------
 ]]></system-out>
-    <system-err><![CDATA[Jul 18, 2020 12:16:32 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+    <system-err><![CDATA[Jul 18, 2020 11:04:15 AM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 12946
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 25899
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 18, 2020 12:16:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1595088255.628][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+Jul 18, 2020 11:04:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Registro de usuario con solo los campos obligatorios" classname="Registro de usuario en TestingYes" time="13.222">
+    <system-out><![CDATA[Feature from file:///home/ahuaracab/Desktop/projects/testingyes-cucumber-project/src/test/resources/features/testcase_testingyes.feature
+11:04:28.708 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: DefinicionDePasosParaRegistro.ingresa_a_testingyes - #actor ingresa a TestingYes
+11:04:28.923 [pool-2-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+11:04:28.923 [pool-2-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+11:04:33.968 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target/site/serenity/c7197c2d7a2af703cceae6b30adbaf46af17150066a6d39a2412ce8a8203f41b.png
+11:04:33.969 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: #actor ingresa a TestingYes
+11:04:33.976 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: DefinicionDePasosParaRegistro.ingresa_a_log_in - #actor ingresa a la pagina de log in
+11:04:35.250 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target/site/serenity/f9a1669d3b9d6e468eb4180bdf646540f2700a7e989c892778a1f1d3c4440857.png
+11:04:35.250 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: #actor ingresa a la pagina de log in
+11:04:35.259 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: DefinicionDePasosParaRegistro.se_registra_con - #actor se registra con los datos obligatorios: nombre: {0} , apellido: {1} , pais: {2} , direccion: {3} , ciudad: {4} , provincia: {5} , codigo postal: {6} , telefono: {7}, email: {8} , contrasena: {9} y confirmacion de con contrasena {10}$
+11:04:41.231 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target/site/serenity/7f4fe5fd349a2f6303314ae9382522ec9dd1c7d93fa38a97eac094a2cee485ca.png
+11:04:41.231 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: #actor se registra con los datos obligatorios: nombre: {0} , apellido: {1} , pais: {2} , direccion: {3} , ciudad: {4} , provincia: {5} , codigo postal: {6} , telefono: {7}, email: {8} , contrasena: {9} y confirmacion de con contrasena {10}$
+11:04:41.243 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: DefinicionDePasosParaRegistro.deberia_ver_la_confirmacion_de_registro - #actor deberia ver la confirmacion de registro: {0}
+11:04:41.676 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target/site/serenity/7f4fe5fd349a2f6303314ae9382522ec9dd1c7d93fa38a97eac094a2cee485ca.png
+11:04:41.676 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: #actor deberia ver la confirmacion de registro: {0}
+]]></system-out>
+    <system-err><![CDATA[Jul 18, 2020 11:04:28 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 19355
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1595088269.309][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+Jul 18, 2020 11:04:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Registro de usuario con solo los campos obligatorios" classname="Registro de usuario en TestingYes" time="12.702">
+    <system-out><![CDATA[Feature from file:///home/ahuaracab/Desktop/projects/testingyes-cucumber-project/src/test/resources/features/testcase_testingyes.feature
+11:04:41.927 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: DefinicionDePasosParaRegistro.ingresa_a_testingyes - #actor ingresa a TestingYes
+11:04:42.148 [pool-2-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+11:04:42.148 [pool-2-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+11:04:46.737 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target/site/serenity/c44f39c605eb40ce3cf588eeb5a2d6719dc8d953cc3c6ad6094a56dabc40a14e.png
+11:04:46.737 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: #actor ingresa a TestingYes
+11:04:46.747 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: DefinicionDePasosParaRegistro.ingresa_a_log_in - #actor ingresa a la pagina de log in
+11:04:47.938 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target/site/serenity/2fe8a255918138770a2d17ef43a082742ddd67bd4e1e5ac00ce29e3bc1faef96.png
+11:04:47.938 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: #actor ingresa a la pagina de log in
+11:04:47.947 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: DefinicionDePasosParaRegistro.se_registra_con - #actor se registra con los datos obligatorios: nombre: {0} , apellido: {1} , pais: {2} , direccion: {3} , ciudad: {4} , provincia: {5} , codigo postal: {6} , telefono: {7}, email: {8} , contrasena: {9} y confirmacion de con contrasena {10}$
+11:04:53.875 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target/site/serenity/da3f69403241a13679347b8e0aec49e4f53b65232f224ad2b15b46815a39267f.png
+11:04:53.876 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: #actor se registra con los datos obligatorios: nombre: {0} , apellido: {1} , pais: {2} , direccion: {3} , ciudad: {4} , provincia: {5} , codigo postal: {6} , telefono: {7}, email: {8} , contrasena: {9} y confirmacion de con contrasena {10}$
+11:04:53.883 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: DefinicionDePasosParaRegistro.deberia_ver_la_confirmacion_de_registro - #actor deberia ver la confirmacion de registro: {0}
+11:04:54.379 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target/site/serenity/da3f69403241a13679347b8e0aec49e4f53b65232f224ad2b15b46815a39267f.png
+11:04:54.379 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: #actor deberia ver la confirmacion de registro: {0}
+]]></system-out>
+    <system-err><![CDATA[Jul 18, 2020 11:04:41 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 26872
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1595088282.494][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+Jul 18, 2020 11:04:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

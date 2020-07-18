@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="Registro de usuario en TestingYes" skipped="0" tests="2" time="35.15" timestamp="2020-07-18 12:32:10"><testcase name="Registro de usuario con solo los campos obligatorios"><failure message="Expected enabled element was not enabled&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'angelohb', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-109-generic', java.version: '1.8.0_252'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'angelohb', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-109-generic', java.version: '1.8.0_252'
-Driver info: driver.version: unknown</failure><system-err>Expected enabled element was not enabled
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'angelohb', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-109-generic', java.version: '1.8.0_252'
-Driver info: driver.version: unknown
-testingyes.page.PaginaLogInTestingYes.ingresarDireccion(PaginaLogInTestingYes.java:61)
-testingyes.page.PaginaLogInTestingYes.ingresarDatos(PaginaLogInTestingYes.java:101)
-testingyes.step.UsuarioParaRegistro.seRegistraCon(UsuarioParaRegistro.java:38)
-testingyes.stepdefinition.DefinicionDePasosParaRegistro.se_registra_con(DefinicionDePasosParaRegistro.java:30)
-✽.angelo se registra con los datos obligatorios: nombre: Angelo , apellido: Huaraca , pais: Peru , direccion: Los Olivos , ciudad: Lima , provincia: Lima , codigo postal: 15037 , telefono: 946532941 , email: test0003@mailinator.com , contrasena: 1234567 y confirmacion de contrasena: 1234567(file:///home/ahuaracab/Desktop/projects/testingyes-cucumber-project/src/test/resources/features/testcase_testingyes.feature:8)
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Registro de usuario en TestingYes" skipped="0" tests="4" time="54.26" timestamp="2020-07-18 11:04:00"><testcase name="Registro de usuario con solo los campos obligatorios"/></testsuite>

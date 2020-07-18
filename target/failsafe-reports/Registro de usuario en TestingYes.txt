@@ -1,24 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Registro de usuario en TestingYes
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 35.079 s <<< FAILURE! - in Registro de usuario en TestingYes
-Registro de usuario en TestingYes.Registro de usuario con solo los campos obligatorios  Time elapsed: 17.724 s  <<< ERROR!
-net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for PaginaLogInTestingYes.cajaDeDireccion to be enabled (tried for 5 second(s) with 100 milliseconds interval)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'angelohb', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-109-generic', java.version: '1.8.0_252'
-Driver info: driver.version: unknown
-
-Registro de usuario en TestingYes.Registro de usuario con solo los campos obligatorios  Time elapsed: 17.09 s  <<< ERROR!
-net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for PaginaLogInTestingYes.cajaDeDireccion to be enabled (tried for 5 second(s) with 100 milliseconds interval)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'angelohb', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-109-generic', java.version: '1.8.0_252'
-Driver info: driver.version: unknown
-
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 54.408 s - in Registro de usuario en TestingYes
