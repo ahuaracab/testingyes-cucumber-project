@@ -1,0 +1,6 @@
+testingyes/page/PaginaPrincipalTestingYes.class
+testingyes/page/PaginaLogInTestingYes.class
+testingyes/stepdefinition/DefinicionDePasosParaRegistro.class
+testingyes/Runner.class
+testingyes/step/UsuarioParaRegistro.class
+testingyes/page/PaginaDashboardTestingYes.class
